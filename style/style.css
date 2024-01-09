@@ -99,6 +99,12 @@ header {
     position: absolute;
     bottom: 0;
 }
+.img-one {
+    background-color:rgba(167, 33, 98, 0.15);
+}
+.img-two {
+    background-color: rgba(5, 151, 160, 0.15);
+}
 .img-one img{
     padding: 0px 77px;
 }
@@ -114,3 +120,83 @@ header {
     color: #272727;
 }
 /* Feature Section End  */
+
+/* Delivery section Start */
+.delivery-section .container {
+    height: 320px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 175px;
+}
+.del-box {
+    text-align: center;
+}
+.del-box h4 {
+    padding: 24px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(39,39,39, 0.80);
+}
+/* Delivery section End */
+
+/* Discount section Start */
+.discount-section .container {
+    height: 620px;
+    width: 100%;
+    margin: 128px 0px;
+    padding: 0px 429px 0px 395px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discount-section .container .dis-text {
+    text-align: center;
+}
+.discount-section .container .dis-text h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #272727;
+    padding: 24px 0px;
+}
+.discount-section .container .dis-text h2 span {
+    color: #E55473;
+}
+.discount-section .container .dis-text p {
+    width: 594px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.discount-section .container .dis-text button {
+    margin: 32px 0px;
+}
+/* Discount section End */
+
+/* Instagram section Start */
+.insta-text {
+    text-align: center;
+}
+.insta-text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #272727;
+}
+.insta-text p {
+    color: rgba(39, 39, 39, 0.60);
+    width: 594px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: auto;
+    padding: 24px 0px 48px 0px;
+}
+.insta-img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+/* Instagram section End */
