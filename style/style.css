@@ -11,7 +11,7 @@ html,body {
 }
 /* $$$-Primary Style-$$$ */
 .container {
-    width: 75%;
+    max-width: 1260px;
     /* background-color:rgba(229, 84, 115, 0.10); */
     margin: 0 auto;
 }
@@ -77,8 +77,10 @@ header {
     padding: 24px 0px 48px 0px;
 }
 .flower {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 .flower-box {
     display: flex;
@@ -87,8 +89,8 @@ header {
     align-items: center;
 }
 .flower-img {
-    height: 538px;
-    width: 464px;
+    width: 400px;
+    height: 480px;
     background-color: rgba(71, 125, 17, 0.15);
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
@@ -106,10 +108,10 @@ header {
     background-color: rgba(5, 151, 160, 0.15);
 }
 .img-one img{
-    padding: 0px 77px;
+    padding: 0px 42px;
 }
 .img-two img{
-    padding: 0px 47px 51px 47px;
+    padding: 0px 20px 40px 20px;
 }
 .img-three img{
     padding: 0px 75px;
