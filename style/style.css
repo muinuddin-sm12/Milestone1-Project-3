@@ -11,7 +11,7 @@ html,body {
 }
 /* $$$-Primary Style-$$$ */
 .container {
-    max-width: 1260px;
+    max-width: 1440px;
     /* background-color:rgba(229, 84, 115, 0.10); */
     margin: 0 auto;
 }
@@ -202,3 +202,87 @@ header {
     margin-bottom: 120px;
 }
 /* Instagram section End */
+
+
+
+/* Deal section Start */
+.deal-section {
+    margin-bottom: 100px;
+}
+.deal-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url('../Flower Asset/Rectangle\ 9.webp');
+}
+.deal-section .container h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 16px;
+}
+.deal-section .container p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.subscribe {
+    width: 800px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.subscribe input {
+    width: 80%;
+    height: 64px;
+    padding-left: 22px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: rgba(39, 39, 39, 0.60);
+}
+.subscribe button {
+    width: 19%;
+    height: 64px;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+/* Deal section End */
+
+
+/* Footer section Start  */
+.footer {
+    height: 400px;
+    background-color: #111010;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer h2 span {
+    color: #E55473;
+}
+.footer h4 {
+    margin: 24px auto;
+    width: 625px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.40);
+}
+/* Footer section End */
