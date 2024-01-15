@@ -145,36 +145,36 @@ header {
 /* Delivery section End */
 
 /* Discount section Start */
-.discount-section .container {
+.discount-section  {
     height: 620px;
     width: 100%;
-    margin: 128px 0px;
-    padding: 0px 429px 0px 395px;
+    margin: 128px auto;
+    padding: 0px 429px 0px 380px;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.discount-section .container .dis-text {
+.discount-section .dis-text {
     text-align: center;
 }
-.discount-section .container .dis-text h2 {
+.discount-section .dis-text h2 {
     font-size: 40px;
     font-weight: 900;
     color: #272727;
     padding: 24px 0px;
 }
-.discount-section .container .dis-text h2 span {
+.discount-section .dis-text h2 span {
     color: #E55473;
 }
-.discount-section .container .dis-text p {
+.discount-section .dis-text p {
     width: 594px;
     font-size: 18px;
     line-height: 30px;
     color: rgba(39, 39, 39, 0.60);
 }
-.discount-section .container .dis-text button {
+.discount-section .dis-text button {
     margin: 32px 0px;
 }
 /* Discount section End */
